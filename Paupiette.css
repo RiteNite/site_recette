@@ -1,0 +1,132 @@
+* {
+    overflow:auto;
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0%;
+    width: 100%;
+}
+.contenu{
+    background-color: black;
+    box-shadow:0px 0px 200px 10px gold;
+    margin: 4% 5% 2% 5%;
+    padding: 0 5% 2% 5%;
+    border: double 8px white;
+    min-width: 1000px;
+    overflow: visible;
+}
+p.en_tete {
+    color: black;
+    display: inline-block;
+    background-color: gold;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 44%;
+    overflow: visible;
+    margin-top: -50%;
+
+}
+
+div.en_tete{
+    display:block;
+    overflow: visible;
+    margin-top: -10px;
+}
+
+h1{
+    text-align: center;
+    color:gold;
+}
+div.separateur{
+    height: 1px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+.citation{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+.img{
+    display: block;
+    width:100%;
+    background-color: lightgray;
+    min-height: 200px;
+
+}
+
+div.image_table{
+    position:relative;
+    width: 50%;
+    bottom: 0;
+    margin:auto;
+    object-fit: cover;
+    box-shadow: 0 0 50px gold;
+}
+.table{
+    position: absolute;
+    bottom:0;
+    text-align: center;  
+    color:gold; 
+    background-color: #000000C0; 
+    height: 80px;
+    width:100%;
+}
+.colonne1, .colonne2{
+    width: 45%;
+}
+div.colonne1{
+    float: left;
+    margin-right: 10%;
+}
+div.colonne2{
+    float: right;
+}
+h2.border{
+    border-bottom: gold 2px solid;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+div.pingredient p{
+    text-align: center;
+    color:black;
+    background-color: gold;
+    font-weight: bold;
+    border: white solid 1px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+p.numero{
+    background-color: gold;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+}
+table.preparation td{
+    margin-top: 1%;
+    padding: 0;
+    color:gold;
+}
+table.preparation td.tdpreparation{
+    vertical-align: middle;
+    padding-left: 10px;
+    font-weight:bold;
+}
+div.alignement_colonne{
+    overflow:auto
+}
